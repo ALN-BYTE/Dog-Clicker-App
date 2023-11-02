@@ -1,59 +1,70 @@
-*{
-    margin: 0; 
-    background-color: antiquewhite;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  margin: 0;
+  background-color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
 
 }
 
 header {
-    margin-top: 5%;
-    text-align: center;
+  margin-top: 5%;
+  text-align: center;
 }
 
-main{
-    margin: 10%;
-    text-align: center;
+main {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
 }
+
 /* Style for the navigation bar */
 nav {
-    
-    color: rgb(203, 41, 41);
-    text-align: center;
-    padding: 10px 0; /* Some padding around the nav */
-  }
-  
-  /* Style for the unordered list within the nav */
-  nav ul {
-    list-style-type: none; /* Removes bullet points */
-    margin: 0; /* Removes default margin */
-    padding: 0; /* Removes default padding */
-  }
-  
-  /* Style for the list items within the unordered list */
-  nav ul li {
-    display: inline; /* Displays list items inline */
-    margin-right: 20px; /* Adds some space between the list items */
-  }
-  
-  /* Style for the links within the list items */
-  nav ul li a {
-    text-decoration: none; /* Removes underline from links */
-    color: rgb(56, 56, 56); /* Sets link color to white */
-    font-weight: bold;
-    font-size: large;
-  }
-  
-  /* Hover effect for the links */
-  nav ul li a:hover {
-    color: rgb(255, 0, 0); /* Changes link color to grey on hover */
-  }
-  
-  footer{
-    text-align: center;
-  }
-  .fit-picture{
-    width: 500px;
-    height: 500px;
 
-  }
-  
+  color: rgb(203, 41, 41);
+  text-align: center;
+  padding: 10px 0;
+  /* Some padding around the nav */
+}
+
+/* Style for the unordered list within the nav */
+nav ul {
+  list-style-type: none;
+  /* Removes bullet points */
+  margin: 0;
+  /* Removes default margin */
+  padding: 0;
+  /* Removes default padding */
+}
+
+/* Style for the list items within the unordered list */
+nav ul li {
+  display: inline;
+  /* Displays list items inline */
+  margin-right: 20px;
+  /* Adds some space between the list items */
+}
+
+/* Style for the links within the list items */
+nav ul li a {
+  text-decoration: none;
+  /* Removes underline from links */
+  color: rgb(56, 56, 56);
+  /* Sets link color to white */
+  font-weight: bold;
+  font-size: large;
+}
+
+/* Hover effect for the links */
+nav ul li a:hover {
+  color: rgb(255, 0, 0);
+  /* Changes link color to grey on hover */
+}
+
+footer {
+  text-align: center;
+}
+
+.fit-picture {
+  width: 500px;
+  height: 500px;
+
+}
