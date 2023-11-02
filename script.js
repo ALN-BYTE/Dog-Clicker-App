@@ -41,10 +41,8 @@ function fetchDogInfo() {
         });
 }
 
-// Call the function to make the request and parse the response
 
 
 //create a event listener for the click event on the button 
 button.addEventListener('click', fetchDogInfo); 
 
-//replace image tag in main, image tag in the DOM
