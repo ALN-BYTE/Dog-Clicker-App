@@ -82,8 +82,16 @@ p {
   font-size: large;
   color: rgb(255, 255, 255);
   background-color: rgb(0, 0, 0);
+  align-content: center;
 }
 
 #main-button:hover {
   background-color: grey;
 }
+#text-description{
+  margin-top: 50px;
+  font-size: large;
+  list-style-type: none;
+  
+}
+

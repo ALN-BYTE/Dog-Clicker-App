@@ -30,10 +30,28 @@ function fetchDogInfo() {
 
             // Extract the image URL
             var imageUrl = data[0].url;
+            //Extract the name data 
+            var name = data[0].breeds[0].name; 
+            //Extract dog height in imperial format
+            var height = data[0].breeds[0].height.imperial; 
+            //Extract bred for data 
+            var role = data[0].breeds[0].bred_for; 
+           
 
             // Update the image source
             var imageElement = document.getElementsByClassName('fit-picture')[0]; // Replace with your actual image class
             imageElement.src = imageUrl;
+
+            //update the name content
+            var nameElement = document.getElementById('name-description');
+            nameElement.textContent = name; 
+            // update the height content
+            var heightElement = document.getElementById('height-description'); 
+            heightElement.textContent = height; 
+
+            var bredForElement = document.getElementById('Bred-description'); 
+            bredForElement.textContent = role; 
+
         })
         .catch(error => {
             // Handle any errors
