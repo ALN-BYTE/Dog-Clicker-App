@@ -21,8 +21,6 @@ nav {
 
   color: rgb(203, 41, 41);
   text-align: center;
-  padding: 10px 0;
-  /* Some padding around the nav */
 }
 
 /* Style for the unordered list within the nav */
@@ -31,7 +29,6 @@ nav ul {
   /* Removes bullet points */
   margin: 0;
   /* Removes default margin */
-  padding: 0;
   /* Removes default padding */
 }
 
